@@ -1,0 +1,10 @@
+name = "my-boot-dev"
+account_id = "8e3ae00955bfa4792dc66b6163ca617f"
+zone_id = ""
+type = "webpack"
+workers_dev = true
+webpack_config = "webpack.config.js"
+kv_namespaces = [
+         { binding = "MyBotKV", id = "7c57d7b2a9124ebb9cc3aa20cc135528" }
+]
+vars={MyBotwebhook="mybot",MyBotbotToken="1857257169:AAHD2OSehqDZXvlxcOfZdN-e7B17WNY8nOw",MyBotdomain="my-boot-dev.xh1.workers.dev"}
